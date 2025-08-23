@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero4 = () => {
     return (
-        <div className='bg-[#836F25] w-full h-screen flex justify-around items-center flex-col pb-10'>
+        <div className='bg-[#836F25] w-full h-screen flex justify-around items-center flex-col pb-10 rounded-4xl'>
             <h2 className='text-5xl text-black font-bold font-stretch-expanded'>Why Choose sattva ??</h2>
             <div className='bg-black flex justify-center items-center border-2 border-[#CDCB42] rounded-[100px] h-1/2 w-3/4 px-20 gap-30'>
                 <div className='flex flex-col gap-15'>
@@ -10,16 +10,22 @@ const Hero4 = () => {
                         <h5 className='text-[#836F25] text-2xl font-bold'>Natural Indegrdients</h5>
                         <p className='text-white text-center'>"Purely natural, traditionally crafted : Kannauj attars made with age-old techniques and the finest natural ingredients."</p>
                     </div>
+                    {/* horizontal line */}
+                    <hr className="h-px border-0 w-full bg-gradient-to-r from-transparent via-[#D9DC75] to-transparent" />
                     <div className='flex flex-col gap-4 items-center'>
                         <h5 className='text-[#836F25] text-2xl font-bold'>Personalization</h5>
                         <p className='text-white text-center'>"Make it unforgettable : Personalized attars with engraved names, perfect for weddings, couples, and cherished gifts."</p>
                     </div>
                 </div>
+                {/* vertical line */}
+                <div className="w-px h-60 bg-gradient-to-b from-transparent via-[#D9DC75] to-transparent"></div>
                 <div className='flex flex-col gap-15'>
                     <div className='flex flex-col gap-4 items-center'>
                         <h5 className='text-[#836F25] text-2xl font-bold'>Luxuorious Packaging</h5>
                         <p className='text-white text-center'>"Encased in elegance : Royal wooden-crafted boxes to complement the luxury of Kannauj’s finest attars."</p>
                     </div>
+                    {/* horizontal line */}
+                    <hr className="h-px border-0 w-full bg-gradient-to-r from-transparent via-[#D9DC75] to-transparent" />
                     <div className='flex flex-col gap-4 items-center'>
                         <h5 className='text-[#836F25] text-2xl font-bold'>Long-Lasting Performance</h5>
                         <p className='text-white text-center'>“Experience the timeless essence of Kannauj attars, crafted for purity, authenticity, and enduring fragrance perfection.”</p>

@@ -3,7 +3,7 @@ import React from 'react'
 
 const Footer2 = () => {
   return (
-    <div className='bg-[#836F25] flex justify-center py-10 items-center gap-5'>
+    <div className='bg-[#836F25] flex justify-center py-10 items-center gap-5 rounded-b-4xl'>
         <div className='bg-black border-4 border-[#BEB634] rounded-4xl flex gap-3 py-8 px-5 max-w-[25vw] min-h-[22vh]'>
             <div>
                 <Image src='/free-delivery.png' alt='free delivery icon' height={70} width={70}/>

@@ -1,3 +1,5 @@
+"use client"
+
 import React from 'react'
 import Image from 'next/image'
 import Link from "next/link";
@@ -34,19 +36,19 @@ const Footer = () => {
             <div className='flex justify-around w-full m-20 px-24'>
                 <div className='flex flex-col gap-6'>
                     <h1 className='text-3xl text-[#BEB634] font-semibold'>About</h1>
-                    <Link className='hover:text-[#BEB634] duration-100 ease-in-out' href='/aboutus'>About Us</Link>
-                    <Link className='hover:text-[#BEB634] duration-100 ease-in-out' href='/'>Our Story</Link>
+                    <Link className='hover:text-[#BEB634] duration-100 ease-in-out' href='/about'>About Us</Link>
+                    <a className='hover:text-[#BEB634] duration-100 ease-in-out' href='/about#ourstory'>Our Story</a>
                 </div>
                 <div className='flex flex-col gap-6'>
                     <h1 className='text-3xl text-[#BEB634] font-semibold'>Shop</h1>
-                    <Link className='hover:text-[#BEB634] duration-100 ease-in-out' href='/collection'>Collections</Link>
-                    <Link className='hover:text-[#BEB634] duration-100 ease-in-out' href='/'>Featured Products</Link>
+                    <Link className='hover:text-[#BEB634] duration-100 ease-in-out' href='/collections'>Collections</Link>
+                    <Link className='hover:text-[#BEB634] duration-100 ease-in-out' href='/homepage#featuredproducts'>Featured Products</Link>
                 </div>
                 <div className='flex flex-col gap-6'>
                     <h1 className='text-3xl text-[#BEB634] font-semibold'>Support</h1>
-                    <Link className='hover:text-[#BEB634] duration-100 ease-in-out' href='/faqs'>FAQ's</Link>
-                    <Link className='hover:text-[#BEB634] duration-100 ease-in-out' href='/'>Contact Us</Link>
-                    <Link className='hover:text-[#BEB634] duration-100 ease-in-out' href='/'>Shipping & Returns</Link>
+                    <Link className='hover:text-[#BEB634] duration-100 ease-in-out' href='/faq'>FAQ's</Link>
+                    <Link className='hover:text-[#BEB634] duration-100 ease-in-out' href='/about#contactus'>Contact Us</Link>
+                    <Link className='hover:text-[#BEB634] duration-100 ease-in-out' href='/about#contactus'>Shipping & Returns</Link>
                 </div>
                 <div className='flex flex-col gap-6'>
                     <h1 className='text-3xl text-[#BEB634] font-semibold'>Socials</h1>
