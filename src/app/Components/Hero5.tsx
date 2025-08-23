@@ -5,7 +5,7 @@ import FeedbackCard from './FeedbackCard'
 const Hero5 = () => {
   return (
     <div className='bg-black w-full h-screen flex justify-around items-center flex-col pb-10 perspective-1000'>
-        <h1 className='text-4xl text-[#BEB634] font-bold font-stretch-expanded'>!! What our Customers are saying !!</h1>
+        <h1 className='text-5xl text-[#BEB634] font-bold font-stretch-expanded' style={{ fontFamily: 'samarkan, sans-serif' }}>!! What our Customers are saying !!</h1>
         <div className='flex justify-between'>
             <div className='flex justify-between flex-col'>
                 <FeedbackCard/>

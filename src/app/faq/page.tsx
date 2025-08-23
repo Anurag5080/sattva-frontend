@@ -63,8 +63,8 @@ export default function FAQ() {
 
   return (
     <div className="min-h-screen w-full bg-[#836F25] flex justify-center items-center mt-20">
-      <div className="max-w-4xl w-full bg-black text-[#BEB634] rounded-4xl px-30 py-20 border-2 border-[#BEB634]">
-        <h1 className="text-4xl font-bold text-center mb-8">FAQ’s</h1>
+      <div className="max-w-4xl w-full bg-black text-[#BEB634] rounded-4xl px-30 pt-20 border-2 border-[#BEB634]">
+        <h1 className="text-4xl font-bold text-center mb-8" style={{ fontFamily: 'samarkan, sans-serif' }}>FAQ’s</h1>
 
         {faqData.map((item, index) => (
           <div key={index} className="mb-6">

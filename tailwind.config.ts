@@ -16,10 +16,7 @@ const config: Config = {
         Hwhite: "#F5F5F5",
       },
       fontFamily: {
-        questrial: ["Questrial", "sans-serif"],
-        worksans: ["Work Sans", "sans-serif"],
-        playfair: ["Playfair Display", "serif"],
-        samarkan: ["Samarkan", "cursive"],
+        samarkan: ['samarkan', 'sans-serif'],
       },
     },
   },

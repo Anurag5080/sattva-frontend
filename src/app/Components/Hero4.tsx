@@ -2,9 +2,9 @@ import React from 'react'
 
 const Hero4 = () => {
     return (
-        <div className='bg-[#836F25] w-full h-screen flex justify-around items-center flex-col pb-10 rounded-4xl'>
-            <h2 className='text-5xl text-black font-bold font-stretch-expanded'>Why Choose sattva ??</h2>
-            <div className='bg-black flex justify-center items-center border-2 border-[#CDCB42] rounded-[100px] h-1/2 w-3/4 px-20 gap-30'>
+        <div className='bg-[#836F25] w-full h-screen flex justify-around items-center flex-col py-10 rounded-4xl'>
+            <h2 className='text-5xl text-black font-bold font-stretch-expanded' style={{ fontFamily: 'samarkan, sans-serif' }}>Why Choose sattva ??</h2>
+            <div className='bg-black flex justify-center items-center border-2 border-[#CDCB42] rounded-4xl h-1/2 w-3/4 px-20 gap-30'>
                 <div className='flex flex-col gap-15'>
                     <div className='flex flex-col gap-4 items-center'>
                         <h5 className='text-[#836F25] text-2xl font-bold'>Natural Indegrdients</h5>
@@ -33,7 +33,7 @@ const Hero4 = () => {
                 </div>
             </div>
             <h2 className='text-4xl text-black font-bold font-stretch-expanded'>Get 15% OFF on your first Order !! Use Code : “WELCOME15” </h2>
-            <button className='bg-black text-white text-3xl py-4 px-20 rounded-full cursor-pointer'>
+            <button className='bg-black text-white text-3xl py-4 px-20 rounded-full cursor-pointer hover:text-[#836F25] hover:font-bold duration-200 ease-in-out'>
                 Shop Now
             </button>
 

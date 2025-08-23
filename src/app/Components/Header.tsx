@@ -40,7 +40,7 @@ const Header = () => {
         <div className={`bg-black w-full flex justify-center items-center flex-col py-2 fixed top-0 left-0 z-50 transition-transform duration-300 ease-in-out ${showNav ? "translate-y-0" : "-translate-y-full" }`}>
             <div className='h-1/2 w-2/3 flex justify-between items-center py-3'>
                 <Image src="/search.png" alt='Search white logo' width={20} height={30} className='cursor-pointer' />
-                <p className='text-[#BEB634] text-4xl cursor-pointer font-bold font-stretch-expanded'>
+                <p className='text-[#BEB634] text-4xl cursor-pointer' style={{ fontFamily: 'samarkan, sans-serif' }}>
                     Sattva
                 </p>
                 <div className='flex gap-5'>

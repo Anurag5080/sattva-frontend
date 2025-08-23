@@ -8,7 +8,7 @@ const Footer = () => {
     return (
         <div className='bg-black w-full  text-white flex justify-center items-center flex-col'>
             <div className='flex justify-center items-center flex-col gap-10 my-16'>
-                <h1 className='text-center text-5xl font-bold text-[#BEB634]'>
+                <h1 className='text-center text-5xl text-bold text-[#BEB634]' style={{ fontFamily: 'samarkan, sans-serif' }}>
                     “Stay Updated. Subscribe for Exclusive Deals!”
                 </h1>
 
