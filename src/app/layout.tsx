@@ -18,6 +18,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Sattva | Discover your inner self",
   description: "Discover your inner self",
+  icons: {
+    icon: '/sattvalogo.png',
+  },
 };
 
 export default function RootLayout({
