@@ -1,5 +1,4 @@
 import React from 'react'
-import FeaturedCard from '../Components/FeaturedCard'
 import Image from 'next/image'
 
 const Collection = () => {
